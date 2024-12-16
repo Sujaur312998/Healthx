@@ -5,7 +5,7 @@ import { Open_Sans } from "next/font/google";
 // const inter = Inter({ subsets: ["latin"] });
 const openSans = Open_Sans({
   subsets: ["latin"],
-  weight: ["400", "600"],
+  weight: ["400", "600","700", "800"],
 });
 
 export const metadata = {

@@ -4,12 +4,91 @@
     position: relative;
     Top: 142px;
     background: linear-gradient(to bottom, #E8F1FF 32.9%, #F1FAFF 100%); 
+    display: flex;
+    justify-content: center;
 }
 
 .container_box{
     width: 85%;
+    height: 100%;
     display: flex;
-    justify-content: center; 
-    /* align-items: center; */
+    justify-content: space-between; 
+    gap: 10px;
+}
 
+.container_box_item{
+    width: 100%;
+    padding: 80px 5px;
+}
+
+.container_box_item:last-child {
+    text-align: right;
+    z-index: 50;
+}
+
+.hero_logo_text{
+    width: 200px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1BB4FB;
+}
+
+.emergency_item, .btn_div{
+    display: flex;
+    gap: 15px;
+}
+
+.care_box{
+    width: 663.23px;
+    height: 193.88px;
+    margin: 2.7px;
+}
+
+.care_for_health{
+    width: 663.23px;
+    /* height: 106px; */
+    position: relative;
+    /* top: 39px; */
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 14.08px;
+}
+
+.health_vector {
+    width: 257px;
+    height: 16.17px;
+    position: absolute;
+    top: 32px;
+    left: 312px;
+    border: 2.7px;
+    border-top: 3px solid #75D4FF;
+    border-radius: 50%; 
+    margin-top: 8.7px;
+    background: transparent;
+}
+
+.care_for_you{
+    width: 551.5px;
+    /* height: 94.08px; */
+    position: relative;
+    left: 1px;
+    /* top:138.8px; */
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 14.08px;
+}
+
+.care_for_health span{
+    color: #004990;
+}
+
+.statement{
+    width: 765px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #788094;
 }

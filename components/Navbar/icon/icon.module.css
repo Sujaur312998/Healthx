@@ -1,12 +1,6 @@
 /* Icon Design */
 
-.icon_box{
-    width: 30px;
-    height: 30px;
-    position: relative;
-}
-
-.icon_box_first_half,.icon_box_second_half{
+.icon_box_first_half, .icon_box_second_half{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,50 +8,51 @@
 }
 
 .icon_box_bottom_right{
-    width: 10.43px;
-    height: 11.04px;
+    width: var(--width);
+    height: var(--height);
     background-color: #75D4FF;
     border-bottom-right-radius: 100%;
-
+    position: relative;
+    right: var(--right);
 }
+
 .icon_box_bottom_left{
-    width: 10.43px;
-    height: 11.04px;
+    width: var(--width);
+    height: var(--height);
     background-color: #2CBEFF;
     border-bottom-left-radius: 100%;
-    top: 17.17px;
+    position: relative;
+    right: var(--right);
 }
 
 .icon_box_top_left{
-    width: 10.43px;
-    height: 11.04px;
+    width: var(--width);
+    height: var(--height);
     background-color: #00A4F4;
     border-top-left-radius: 100%;
     position: relative;
-    left: 2.75px;
-    top: 2.54px;
+    top: var(--top)
 }
+
 .icon_box_top_right{
-    width: 15.95px;
-    height: 15.94px;
+    width: var(--width);
+    height: var(--height);
     background-color: #004990;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
     position: relative;
-    left: 4px;
-    bottom: 1.5px;
+    bottom: var(--bottom);
+    left: var(--left);
 }
-
 
 /* Icon Name Health */
 
 .icon_name{
-    width: 110px;
-    height: 28px;
+    width: 104.46px;
+    height: 34px;
     color:#004990 ;
-    margin-left: 10px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 28px;
+    font-weight: 800;
+    font-size: 26.83px;
+    line-height: 33.81px;
 }

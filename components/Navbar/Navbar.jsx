@@ -11,8 +11,18 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <div className={styles.navbar_container}>
         {/* logo Section */}
-        <div className={styles.navbar_items}>
-          <Icon />
+        <div className={styles.navbar_log_item}>
+          <Icon
+            topLeft={{ width: "17.01px", height: "17px", top: "5.48px" }}
+            topRight={{
+              width: "26.02px",
+              height: "28px",
+              bottom: "2px",
+              left: "2px",
+            }}
+            bottomLeft={{ width: "17.01px", height: "18px", right: "4.5px" }}
+            bottomRight={{ width: "17.01px", height: "18px", right: "4.5px" }}
+          />
           <IconName />
         </div>
         {/* Nav Items */}
@@ -24,22 +34,26 @@ const Navbar = () => {
               </span>
             );
           })}
-        </div>
 
-        <div className={styles.navbar_items}>
-          <div className={styles.navbar_item_icon_border}>
-            <IoMdSearch className={styles.navbar_item_icon} />
-          </div>
-          <div className={styles.navbar_item_icon_border}>
-            <CgShoppingCart className={styles.navbar_item_icon} />
-            <div className={styles.navbar_notification_box}>
-              <span className={styles.navbar_notification_count}>5</span>
+          <div className={styles.navbar_btn_items}>
+            <div className={styles.navbar_item_icon_border}>
+              <IoMdSearch className={styles.navbar_item_icon} />
+            </div>
+            <div className={styles.navbar_item_icon_border}>
+              <CgShoppingCart className={styles.navbar_item_icon} />
+              <div className={styles.navbar_notification_box}>
+                <span className={styles.navbar_notification_count}>5</span>
+              </div>
             </div>
           </div>
-        </div>
-        {/* icon section */}
-        <div className={styles.navbar_items}>
-            <Button content='Appointment now' gradientColor={{ start: "#004990", end: "#9ab5fa" }}/>
+          {/* icon section */}
+          <div className={styles.navbar_items}>
+            <Button
+              content="APPOINTMENT NOW"
+              gradientColor={{ start: "#004990", end: "#9ab5fa" }}
+              width={{width:'153px'}}
+            />
+          </div>
         </div>
       </div>
     </div>

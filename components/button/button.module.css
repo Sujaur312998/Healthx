@@ -1,6 +1,6 @@
 .button_box {
-    width: 139px;
-    height: 26px;
+    width: var(--width);
+    height: 38px;
     border: none;
     border-radius: 24.83px;
     font-weight: bold;
@@ -21,5 +21,12 @@
     font-weight: 700;
     font-size: 13px;
     line-height: 14px;
-    text-transform: capitalize; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.searchIcon{
+    font-size: 24px;
+    font-weight: 600;
 }

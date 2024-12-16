@@ -1,0 +1,155 @@
+.service_main {
+    width: 100%;
+    height: 986px;
+}
+
+.service_container {
+    position: relative;
+    top: 100px;
+    height: 855.18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_container_first_item {
+    width: 85%;
+    height: 755.18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.Service_header {
+    width: 530px;
+    height: 156.2px;
+}
+
+.service_logo {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.service_logo span {
+    width: 110px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #004990;
+}
+
+.service_moto {
+    width: 530px;
+    height: 108px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+}
+
+.services_items {
+    height: 556.97px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.service_card {
+    width: 260.94px;
+    height: 268.49;
+    border-radius: 16.31px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+}
+
+.service_image_box {
+    width: 72.48px;
+    height: 72.48px;
+    border-radius: 50%;
+    background-color: #E6E9EE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px auto;
+}
+
+
+.service_name {
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.service_doctors {
+    font-weight: 400;
+    font-size: 15.48px;
+    line-height: 25.37px;
+    text-align: center;
+    color: #788094;
+    margin-bottom: 16px;
+}
+
+
+/* 2nd Item */
+.service_container_second_item {
+    width: 100%;
+    gap: 20px;
+}
+
+.more_service_box {
+    width: 463.19px;
+    height: 40px;
+    border-radius: 99px;
+    border: 1px solid #D8DDE1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px; 
+}
+
+.service_horizontal_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more_service_box span {
+    font-weight: 500;
+    font-size: 14px;
+    color: #004990;
+}
+
+.hr_line{
+    width: 50%;
+    border-top: 1px solid #D8DDE1 ;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .services_items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .services_items {
+        grid-template-columns: 1fr;
+    }
+}

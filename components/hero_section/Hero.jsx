@@ -71,7 +71,7 @@ const Hero = () => {
         </div>
         {/* 2nd Section */}
         <div className={styles.container_box_item}>
-          <Image src={heroImg} alt="doctorxbd" width={500} height={400} />
+          <Image src={heroImg} alt="doctorxbd" width={550} height={450} />
         </div>
       </div>
     </div>

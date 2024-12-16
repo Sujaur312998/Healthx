@@ -1,0 +1,14 @@
+.content_header {
+    display: flex;
+    gap: 10px;
+    justify-content: var(--justify-content);
+}
+
+.logo_text{
+    width: 200px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1BB4FB;
+}

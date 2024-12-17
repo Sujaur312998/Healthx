@@ -3,6 +3,7 @@ import SearchBar from "@/components/search/SearchBar";
 import Services from "@/components/Services/Services";
 import Health_Services from "@/components/health_services/Health_Services";
 import Doctors from "@/components/doctors/doctors";
+import Contact from "@/components/contact_form/Contact";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Services />
       <Health_Services />
       <Doctors />
+      <Contact />
     </div>
   );
 }

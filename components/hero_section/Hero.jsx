@@ -1,4 +1,3 @@
-import Icon from "@/components/Navbar/icon/Icon";
 import Button from "@/components/button/Button";
 import styles from "./hero.module.css";
 import Image from "next/image";

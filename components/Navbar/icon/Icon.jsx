@@ -2,7 +2,7 @@ import Styles from "./icon.module.css";
 
 const Icon = ({ topLeft, topRight, bottomLeft, bottomRight }) => {
   return (
-    <div className={Styles.icon_box}>
+    <div>
       <div className={Styles.icon_box_first_half}>
         <div
           className={Styles.icon_box_top_left}

@@ -1,35 +1,96 @@
-.health_services{
+.health_services {
     width: 100%;
     height: 829px;
-    position: relative;
-    top:65px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, #FBFEFF 100%, #F2FAFF 100%);
 }
 
 .hs_container{
     width: 85%;
-    height: 829px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    height: 705px;
+    position: relative;
     display: flex;
-    gap: 20px;
-    /* background-color: aquamarine; */
+    gap:20px;
 }
 
+/* First Item */
 .hs_first_item{
-    width: 513px;
-    height: 610px;   
+    width: 610.46px;
+    height: 610px;
 }
 
-.logo_section{
-
+.hs_logo_moto{
+    width: 513.82px;
+    height: 200.46px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
 }
 
+.hs_moto{
+    width: 611.14px;
+    height: 153px;
+    font-weight: 600;
+    font-size: 38.49px;
+    line-height: 50.7px;
+    color: #000D44;
+}
+.hs_points{
+    width: 498.56px;
+    height: 125.84px;
+    display: flex;
+    position: relative;
+    top: 30px;
+    gap: 20px;
+}
+
+.hs_points_serial{
+    width: 45.16px;
+    height: 45.16px;
+    border: 1.88px solid #004990;
+    border-radius:50%;
+    position: relative;
+    top:.97px;
+    margin: 1.88px;
+    font-weight: 600;
+    font-size: 21.68px;
+    line-height: 45.16px;
+    align-items: center;
+    color: #004990;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hs_points_details{
+    width: 439.85px;
+    height: 125.84px;
+    border-bottom: 0.9px solid #D8DDE1;
+}
+
+.hs_title{
+    height: 31px;
+    position: relative;
+    top: 7.17px;
+    font-weight: 600;
+    font-size: 21.68px;
+    line-height: 30.72px;
+    color: #000D44;
+}
+
+.hs_body{
+    width: 431px;
+    height: 51px;
+    font-weight: 400;
+    font-size: 14.45px;
+    line-height: 25.29px;
+    color: #788094;
+}
+
+
+/* 2nd Item */
 .hs_second_item{
     width: 643.25px;
-    height: 658.02px;
-
+    height:658.02px;
+    background-color: brown;
 }

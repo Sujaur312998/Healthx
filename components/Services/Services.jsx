@@ -3,6 +3,7 @@ import ServiceHeader from "./ServiceHeader";
 import { servicesData } from "@/lib/servicesData";
 import Image from "next/image";
 import Button from "../button/Button";
+import Content_Breaker from "../Content_breaker";
 
 const Services = () => {
   return (
@@ -37,14 +38,7 @@ const Services = () => {
         </div>
 
         <div className={styles.service_container_second_item}>
-          <div className={styles.service_horizontal_line}>
-            <hr className={styles.hr_line}/>
-            <div className={styles.more_service_box}>
-              <span>You Get Our 20+ More services...</span>
-              <span>Explore All Services</span>
-            </div>
-            <hr className={styles.hr_line}/>
-          </div>
+          <Content_Breaker content={"You Get Our 20+ More services..."} />
         </div>
       </div>
     </div>

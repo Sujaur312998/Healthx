@@ -1,17 +1,13 @@
 import styles from "./hs.module.css";
-import Content_Header from "../Content_header";
+import HS_Content from "./Hs_content";
 
 const Health_Services = () => {
   return (
     <div className={styles.health_services}>
       <div className={styles.hs_container}>
         {/* 1st section */}
-        <div className={styles.hs_first_item}>
-          <Content_Header content={'WHY CHOOSE US'}/>
-        </div>
-
-        {/* 2nd section */}
-        <div className={styles.hs_second_item}></div>
+        <HS_Content />
+        {/* 2nd Section */}
       </div>
     </div>
   );

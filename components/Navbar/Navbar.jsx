@@ -14,12 +14,7 @@ const Navbar = () => {
         <div className={styles.navbar_log_item}>
           <Icon
             topLeft={{ width: "17.01px", height: "17px", top: "5.48px" }}
-            topRight={{
-              width: "26.02px",
-              height: "28px",
-              bottom: "2px",
-              left: "2px",
-            }}
+            topRight={{width: "26.02px", height: "28px", bottom: "2px", left: "2px"}}
             bottomLeft={{ width: "17.01px", height: "18px", right: "4.5px" }}
             bottomRight={{ width: "17.01px", height: "18px", right: "4.5px" }}
           />

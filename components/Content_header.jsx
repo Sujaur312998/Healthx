@@ -1,4 +1,4 @@
-import styles from './header.module.css'
+import styles from './content.module.css'
 import Icon from './Navbar/icon/Icon'
 
 const Content_Header=({content, style })=>{

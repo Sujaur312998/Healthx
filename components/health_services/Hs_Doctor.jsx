@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./hs.module.css";
 import { hs_doctor } from "@/lib/imageLink";
-import PlusSvgComponent from '@/lib/svg/plus_svg'
+import PlusSvgComponent from '@/lib/svg/Plus_svg'
 
 const Hs_Doctor = () => {
   return (

@@ -29,6 +29,11 @@
     height: 156.2px;
 }
 
+.header{
+    display: flex;
+    justify-content: center;
+}
+
 .service_logo {
     display: flex;
     gap: 10px;

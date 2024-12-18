@@ -1,0 +1,150 @@
+.contact_section {
+    width: 100%;
+    height: 1152px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_container {
+    width: 85%;
+    height: 967.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_moto {
+    width: 808px;
+    height: 106px;
+    text-align: center;
+}
+
+.contact_moto h3 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+}
+
+.contact_moto span {
+    color: #000D44;
+}
+
+.contact_moto p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #788094;
+}
+
+.contact_form {
+    width: 100%;
+    height: 752.9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.contact_img {
+    width: 543px;
+    height: 652px;
+}
+
+.img_background {
+    position: relative;
+    top: 239.56px;
+    width: 543px;
+    height: 513px;
+    border-radius: 40.83px;
+    background: linear-gradient(to bottom, #004990 0%, #D3EAFF 100%);
+    
+}
+
+.img_background img{
+    transform: scaleX(-1);
+    position: relative;
+    top: -190px;
+}
+
+/* appointment form */
+
+.form{
+    width: 539.12px;
+    height: 635px;
+    position: relative;
+    top: 100px;
+    border: 1px solid #195B9C ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* form box */
+
+.form_div{
+    width: 455.83px;
+    height: 85.12px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.textArea{
+    width: 455.83px;
+    height: 120.12px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.FormField{
+    width: 100%;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;   
+
+}
+
+.FormField label{
+    font-weight: 500;
+    font-size: 16.48px;
+    initial-letter: 1.5%;
+    color: #3C4959;
+}
+
+
+.inputbox{
+    display: flex;
+    border: 0.92px solid #D0D5DD;
+}
+
+
+.inputbox select{
+    width: 30%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.inputbox input, .inputbox select, .inputbox textarea{
+    padding: 14.65px 10.98px;
+    border: none;
+}
+
+.inputbox input:focus, .inputbox select:focus, .inputbox textarea:focus {
+    border: none;
+    outline: none; 
+}
+
+.inputbox input, .inputbox textarea{
+    width: 100%;
+    border: none;
+}

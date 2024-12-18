@@ -1,5 +1,6 @@
 import styles from "./content.module.css";
 import Icon from "./Navbar/icon/Icon";
+import { Outfit } from "next/font/google";
 
 const Content_Header = ({ content, style }) => {
   return (
@@ -31,7 +32,16 @@ const Content_Header = ({ content, style }) => {
           right: "4.41px",
         }}
       />
-      <span className={styles.logo_text}>{content}</span>
+      <span
+        className={styles.logo_text}
+        style={{
+          "--color": style?.color,  
+          "--font-weight": style?.fontWeight ,  
+          "--font-size": style?.fontSize ,  
+        }}
+      >
+        {content}
+      </span>
     </div>
   );
 };

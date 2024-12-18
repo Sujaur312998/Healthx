@@ -5,12 +5,12 @@
 }
 
 .logo_text {
-    /* width: 200px; */
     height: 28px;
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: var(--font-weight, 600);
+    font-size: var(--font-size, 16px);
     line-height: 28px;
-    color: #1BB4FB;
+    color: var(--color, #1BB4FB);
+    /* font-family: var(--font-family, openSans); */
 }
 
 

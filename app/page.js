@@ -4,6 +4,7 @@ import Services from "@/components/Services/Services";
 import Health_Services from "@/components/health_services/Health_Services";
 import Doctors from "@/components/doctors/doctors";
 import Contact from "@/components/contact_form/Contact";
+import Footer from "@/components/footer/footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Health_Services />
       <Doctors />
       <Contact />
+      <Footer />
     </div>
   );
 }

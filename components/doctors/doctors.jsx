@@ -1,3 +1,4 @@
+'use client';
 import styles from "./doctor.module.css";
 import Content_Header from "../Content_header";
 import DoctorDetails from "./DoctorDetails";

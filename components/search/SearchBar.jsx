@@ -1,3 +1,4 @@
+'use client';
 import styles from "./search.module.css";
 import Button from "../button/Button";
 import InputField from "./InputField";

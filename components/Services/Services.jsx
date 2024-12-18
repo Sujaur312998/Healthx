@@ -1,3 +1,4 @@
+'use client';
 import styles from "./services.module.css";
 import ServiceHeader from "./ServiceHeader";
 import { servicesData } from "@/lib/servicesData";

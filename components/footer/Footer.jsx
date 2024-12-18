@@ -1,3 +1,4 @@
+'use client';
 import styles from "./footer.module.css";
 import Content_Header from "../Content_header";
 import { FaFacebookF } from "react-icons/fa6";

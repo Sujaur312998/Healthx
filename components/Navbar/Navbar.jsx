@@ -1,3 +1,4 @@
+'use client';
 import styles from "./navbar.module.css";
 import Icon from "./icon/Icon";
 import IconName from "./icon/IconName";

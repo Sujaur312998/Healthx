@@ -1,3 +1,4 @@
+'use client';
 import Button from "@/components/button/Button";
 import styles from "./hero.module.css";
 import Image from "next/image";

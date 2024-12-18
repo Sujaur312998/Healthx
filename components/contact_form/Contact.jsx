@@ -1,3 +1,4 @@
+'use client';
 import styles from "./contact.module.css";
 import Content_Header from "../Content_header";
 import { contact_us } from "@/lib/imageLink";

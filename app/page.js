@@ -2,9 +2,9 @@ import Hero from "@/components/hero_section/Hero";
 import SearchBar from "@/components/search/SearchBar";
 import Services from "@/components/Services/Services";
 import Health_Services from "@/components/health_services/Health_Services";
-import Doctors from "@/components/doctors/doctors";
+import Doctors from "@/components/doctors/Doctors";
 import Contact from "@/components/contact_form/Contact";
-import Footer from "@/components/footer/footer";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (

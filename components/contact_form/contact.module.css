@@ -7,7 +7,7 @@
 }
 
 .contact_container {
-    width: 85%;
+    width: 1136.84px;
     height: 967.1px;
     display: flex;
     flex-direction: column;
@@ -42,9 +42,8 @@
     height: 752.9px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
-
 
 .contact_img {
     width: 543px;
@@ -147,4 +146,18 @@
 .inputbox input, .inputbox textarea{
     width: 100%;
     border: none;
+}
+
+
+@media (max-width:1136px) {
+    .contact_section{
+        position: relative;
+        top: 1100px;
+    }
+    .contact_form{
+        flex-direction: column;
+    }
+    .contact_img{
+        display: none;
+    }
 }

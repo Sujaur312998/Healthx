@@ -1,15 +1,16 @@
-.doctor_section{
+.doctor_section {
     width: 100%;
     height: 1037px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: 140px;
 }
 
-.doctor_container{
-    width: 85%;
-    height: 912.29px;
+.doctor_container {
+    width: 1136px;
     padding-left: 5px;
     display: flex;
     flex-direction: column;
@@ -17,16 +18,15 @@
     justify-content: center;
 }
 
- .content{
+.content {
     width: 605px;
-    /* height: 133.91px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.content h3{
+.content h3 {
     font-weight: 600;
     font-size: 36.44px;
     text-align: center;
@@ -34,7 +34,6 @@
 }
 
 .content p {
-    /* height: 72px; */
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -42,74 +41,77 @@
     color: #a6a7ac;
 }
 
-.doctor_details_container{
+.doctor_details_container {
     height: 569.97px;
-    width: 569.97px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
 }
 
-.doctor_details_box{
+.doctor_details_box {
     width: 350.15px;
-    height: 495.97px;
+    height: 569.97px;
     border: .97px solid #F5F5F5;
-    padding:15px;
+    padding: 15px;
     border-radius: 9.73px;
     display: flex;
     flex-direction: column;
-    justify-content: first baseline;
+    justify-content: space-between;
 }
-.doctor_img_box{
+
+.doctor_img_box {
     width: 311.25px;
     height: 359.88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 9.73px;
     background-color: #F7F9FE;
 }
 
-.specialist_box{
+.specialist_box {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
 }
 
-.specialist{
+.specialist {
     font-weight: 600;
     font-size: 13.62px;
-    /* line-height: 18.54px; */
-    background-color: #F7F9FE ;
+    background-color: #F7F9FE;
     color: #555657;
 }
 
-.rating{
+.rating {
     font-weight: 600;
     font-size: 13.62px;
-    /* line-height: 18.54px; */
     color: #9fa9b4;
 }
-.rating span:last-child{
+
+.rating span:last-child {
     font-weight: 400;
 }
 
-.patient{
+.patient {
     font-weight: 600;
     font-size: 15.55px;
-    color:#1D2B4F;
+    color: #1D2B4F;
 }
-.hospital{
+
+.hospital {
     font-weight: 400;
     font-size: 11.87px;
-    color:#636E88;
+    color: #636E88;
 }
 
-.doctor_second_container{
+.doctor_second_container {
     width: 100%;
-    gap: 20px;
+    position: relative;
+    top: 60px;
 }
-
-
-
-/*  */
 
 .more_service_box {
     width: 763.19px;
@@ -155,4 +157,61 @@
 .hr_line {
     width: 50%;
     border-top: 1px solid #D8DDE1;
+}
+
+
+@media (max-width: 1136px) {
+    .doctor_section {
+        top: 280px;
+    }
+
+    .doctor_container {
+        width: 90%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .content h3 {
+        font-size: 28px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .doctor_details_container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+
+    .doctor_details_box {
+        width: 100%;
+        height: auto;
+    }
+
+    .doctor_img_box {
+        width: 100%;
+        height: auto;
+    }
+
+    .specialist,
+    .rating,
+    .patient,
+    .hospital {
+        font-size: 14px;
+    }
+
+    .patient {
+        font-size: 14px;
+    }
+
+    .hospital {
+        font-size: 12px;
+    }
+
+    .doctor_second_container{
+        top: 1050px;
+    }
 }

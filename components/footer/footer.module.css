@@ -103,3 +103,14 @@
   align-items: center;
   justify-content: center;
 }
+
+
+@media (max-width:1136px){
+  .footer_section{
+    position: relative;
+    top:1000px
+  }
+  .quick_access{
+    display: none;
+  }
+}

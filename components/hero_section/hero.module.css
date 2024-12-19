@@ -1,48 +1,49 @@
-.main_box{
+.main_box {
     width: 100%;
     height: 592px;
     position: relative;
     Top: 142px;
-    background: linear-gradient(to bottom, #E8F1FF 32.9%, #F1FAFF 100%); 
+    background: linear-gradient(to bottom, #E8F1FF 32.9%, #F1FAFF 100%);
     display: flex;
     justify-content: center;
 }
 
-.container_box{
-    width: 85%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between; 
-    gap: 10px;
+.content {
+    width: 765px;
+    height: 400.88px;
 }
 
-.container_box_item{
-    width: 100%;
-    padding: 80px 5px;
-}
-
-.container_box_item:last-child {
-    text-align: right;
+.image_box {
+    position: relative;
+    top: 5px;
+    right: 80px;
     z-index: 50;
 }
 
+.container_box {
+    width: 1136.76px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
-.btn_div{
+.btn_div {
     display: flex;
     gap: 15px;
 }
 
-.care_box{
+.care_box {
     width: 663.23px;
     height: 193.88px;
-    margin: 2.7px;
+    text-align: left;
 }
 
-.care_for_health{
+.care_for_health {
     width: 663.23px;
-    /* height: 106px; */
     position: relative;
-    /* top: 39px; */
     font-weight: 700;
     font-size: 62px;
     line-height: 14.08px;
@@ -56,30 +57,94 @@
     left: 312px;
     border: 2.7px;
     border-top: 3px solid #75D4FF;
-    border-radius: 50%; 
+    border-radius: 50%;
     margin-top: 8.7px;
 }
 
-.care_for_you{
+.care_for_you {
     width: 551.5px;
-    /* height: 94.08px; */
     position: relative;
     left: 1px;
-    /* top:138.8px; */
     font-weight: 700;
     font-size: 62px;
     line-height: 14.08px;
 }
 
-.care_for_health span{
+.care_for_health span {
     color: #004990;
 }
 
-.statement{
-    width: 765px;
-    height: 60px;
+.statement {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     color: #788094;
+}
+
+@media (max-width: 1136px) {
+
+    .care_for_health,
+    .care_for_you {
+        width: 100%;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 8.08px;
+    }
+
+    .statement {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        color: #788094;
+    }
+
+    .image_box {
+        display: none;
+    }
+}
+
+@media (max-width: 1136px) {
+    .content {
+        margin: auto;
+    }
+    .health_vector {
+        width: 157px;
+        height: 12.17px;
+        left: 210px;
+        top: 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    .content {
+        width: 100%;
+        position: relative;
+        top: -85px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .health_vector {
+        width: 157px;
+        height: 12.17px;
+        left: 365px;
+        top: 15px;
+    }
+
+    .care_box {
+        text-align: center;
+    }
+
+    .care_for_you {
+        width: 100%;
+    }
+
+    .btn_div {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
 }

@@ -1,11 +1,11 @@
 // import dynamic from "next/dynamic"
-import Hero from "@/components/hero_section/Hero"
-import SearchBar from "@/components/search/SearchBar"
-import Services from "@/components/Services/Services"
-import Health_Services from "@/components/health_services/Health_Services"
-import Contact from "@/components/contact_form/Contact"
-import Doctors from "@/components/doctors/doctors"
-import Footer from "@/components/footer/Footer"
+import Hero from "@/components/hero_section/Hero";
+import SearchBar from "@/components/search/SearchBar";
+import Services from "@/components/Services/Services";
+import Health_Services from "@/components/health_services/Health_Services";
+import Contact from "@/components/contact_form/Contact";
+import Doctors from "@/components/doctors/doctors";
+import Footer from "@/components/footer/Footer";
 
 // const Hero = dynamic(() => import("@/components/hero_section/Hero"),{ssr:false})
 // const SearchBar = dynamic(() => import("@/components/search/SearchBar"),{ssr:false})
@@ -21,10 +21,10 @@ export default function Home() {
       <Hero />
       <SearchBar />
       <Services />
-      <Health_Services />
+      {/* <Health_Services />
       <Doctors />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

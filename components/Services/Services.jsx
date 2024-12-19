@@ -27,20 +27,22 @@ const Services = () => {
                   </div>
                   <div className={styles.service_name}>{item.serviceName}</div>
                   <div className={styles.service_doctors}>30+ Doctors</div>
-                  <Button
-                    content="READ MORE"
-                    gradientColor={{ start: "#004990", end: "#9ab5fa" }}
-                    // width={{ width: "90px" }}
-                  />
+                  <div className={styles.service_btn}>
+                    <Button
+                      content="READ MORE"
+                      gradientColor={{ start: "#004990", end: "#9ab5fa" }}
+                      width={{ width: "90px" }}
+                    />
+                  </div>
                 </div>
               );
             })}
           </div>
         </div>
-
-        <div className={styles.service_container_second_item}>
-          <Content_Breaker content={"You Get Our 20+ More services..."} />
-        </div>
+        
+      </div>
+      <div className={styles.service_container_second_item}>
+        <Content_Breaker content={"You Get Our 20+ More services..."} />
       </div>
     </div>
   );

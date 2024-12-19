@@ -22,7 +22,7 @@ const Navbar = () => {
         {/* logo Section */}
         <div className={styles.navbar_log_item}>
           <Icon
-            topLeft={{ width: "17.01px", height: "17px", top: "5.48px" }}
+            topLeft={{ width: "17.01px", height: "17px", top: "5.5px" }}
             topRight={{
               width: "26.02px",
               height: "28px",

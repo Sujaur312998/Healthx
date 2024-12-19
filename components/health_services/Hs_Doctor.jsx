@@ -29,7 +29,3 @@ const Hs_Doctor = () => {
 };
 
 export default Hs_Doctor;
-
-{
-  /*  */
-}

@@ -21,7 +21,8 @@ export default function Home() {
       <Hero />
       <SearchBar />
       <Services />
-      {/* <Health_Services />
+      <Health_Services />
+      {/* 
       <Doctors />
       <Contact />
       <Footer /> */}

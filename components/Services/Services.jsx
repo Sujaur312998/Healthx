@@ -39,7 +39,6 @@ const Services = () => {
             })}
           </div>
         </div>
-        
       </div>
       <div className={styles.service_container_second_item}>
         <Content_Breaker content={"You Get Our 20+ More services..."} />

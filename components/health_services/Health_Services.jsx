@@ -1,4 +1,4 @@
-'use client';
+// 'use client';
 import styles from "./hs.module.css";
 import Hs_Content from "./Hs_content";
 import Hs_Doctor from "./Hs_Doctor";

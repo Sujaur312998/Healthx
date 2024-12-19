@@ -1,17 +1,23 @@
-'use client';
+"use client";
 import Button from "@/components/button/Button";
 import styles from "./hero.module.css";
 import Image from "next/image";
 import Content_Header from "../Content_header";
-import {hero_doctor} from '@/lib/imageLink'
+import { hero_doctor } from "@/lib/imageLink";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  const [isLoading, setisLoading] = useState(false);
+
+  useEffect(() => {
+    setisLoading(true);
+  }, []);
+
   return (
     <div className={styles.main_box}>
       <div className={styles.container_box}>
         {/* 1st  section */}
         <div className={styles.container_box_item}>
-          
           {/* 24/7 Emergency service */}
           <Content_Header content={"24/7 Emergency Service"} />
 
@@ -19,11 +25,13 @@ const Hero = () => {
 
           <div className={styles.care_box}>
             <p className={styles.care_for_health}>
-              Caring for
-              <span>
-                {" "}
+              Caring for <span>
                 Health
-                <div className={styles.health_vector}></div>
+                {!isLoading ? (
+                  null
+                ) : (
+                  <div className={styles.health_vector}></div>
+                )}
               </span>
             </p>
             <p className={styles.care_for_you}>Caring for You</p>
@@ -32,7 +40,6 @@ const Hero = () => {
               A brief statement outlining the purpose and mission of the clinic.
               This can include the commitment to patient care, community health.
             </p>
-
             <div className={styles.btn_div}>
               <Button
                 content="DISCOVER MORE"

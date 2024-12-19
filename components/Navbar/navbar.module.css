@@ -6,6 +6,8 @@
     background-color: white;
     z-index: 100;
     display: flex;
+    /* flex-direction: column; */
+    align-items: center;
     justify-content: center; 
 }
 
@@ -18,11 +20,26 @@
     justify-content: space-between;
 }
 
+.toggleMenu{
+    width: 85%;
+    height: 160px;
+    position: absolute;
+    top: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    background: linear-gradient(to bottom, #E8F1FF 100%, #F1FAFF 100%); 
+}
+
 .navbar_items{ 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
 }
 .navbar_btn_items{ 
     display: flex;
@@ -35,6 +52,15 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
+    cursor: pointer;
+}
+
+.navbar_item_toggle_data{
+    /* display: flex;
+    flex-direction: column;*/
+    /* gap: 35px; */
+    /*align-items: center; */
+    justify-content: space-between;
 }
 
 .navbar_item_data{
@@ -44,6 +70,7 @@
     font-size: 16px;
     line-height: 28px;
     cursor: pointer;
+    text-align: center;
 }
 
 /* Icon Section */
@@ -63,6 +90,7 @@
     border-radius: 74.25px;
     border: 0.75px solid #004990;
     position: relative; 
+    cursor: pointer;
 }
 
 .navbar_notification_box{
@@ -116,4 +144,29 @@
     line-height: 14px;
     align-items: center;
     text-transform: capitalize; 
+}
+
+.menu_icon{
+    cursor: pointer;
+    color: #004990;
+    font-size: 24px;
+}
+
+@media (max-width: 1200px) {
+    .navbar_item_data {
+        display: none;
+    }
+}
+@media (min-width: 1200px) {
+    .menu_icon {
+        display: none;
+    }
+    .toggleMenu{
+        display: none;
+    }
+}
+@media (max-width: 570px) {
+    .appointment_btn {
+        display: none;
+    }
 }

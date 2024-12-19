@@ -4,7 +4,7 @@ import SearchBar from "@/components/search/SearchBar"
 import Services from "@/components/Services/Services"
 import Health_Services from "@/components/health_services/Health_Services"
 import Contact from "@/components/contact_form/Contact"
-import Doctors from "@/components/doctors/Doctors"
+import Doctors from "@/components/doctors/doctors"
 import Footer from "@/components/footer/Footer"
 
 // const Hero = dynamic(() => import("@/components/hero_section/Hero"),{ssr:false})
